@@ -66,7 +66,7 @@ public class AnimModClient implements ClientModInitializer {
         } else {
             layer.replaceAnimationWithFade(
                     AbstractFadeModifier.standardFadeIn(5, Ease.INOUTSINE),
-                    new KeyframeAnimationPlayer(anim));
+             anim.playAnimation());
         }
         current.put(p.getUuid(), state);
     }
