@@ -1,0 +1,25 @@
+name: Compilar mod
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: 8.10.2
+          build-root-directory: movement-animations
+      - run: gradle build
+        working-directory: movement-animations
+      - uses: actions/upload-artifact@v4
+        with:
+          name: movement-animations-jar
+          path: |
+            movement-animations/build/libs/*.jar
+            !movement-animations/build/libs/*-sources.jar
