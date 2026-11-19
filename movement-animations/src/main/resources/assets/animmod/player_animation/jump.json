@@ -1,0 +1,46 @@
+{
+ "name": "jump",
+ "author": "MrMr",
+ "emote": {
+  "isLoop": true,
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 10,
+  "stopTick": 10,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 0,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -2.5
+    },
+    "leftArm": {
+     "pitch": -2.5
+    },
+    "rightLeg": {
+     "pitch": 0.6
+    },
+    "leftLeg": {
+     "pitch": -0.2
+    }
+   },
+   {
+    "tick": 10,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -2.5
+    },
+    "leftArm": {
+     "pitch": -2.5
+    },
+    "rightLeg": {
+     "pitch": 0.6
+    },
+    "leftLeg": {
+     "pitch": -0.2
+    }
+   }
+  ]
+ }
+}

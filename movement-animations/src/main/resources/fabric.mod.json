@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "animmod",
+  "version": "${version}",
+  "name": "Movement Animations",
+  "description": "Animaciones propias para andar, correr, escalar, nadar, caer...",
+  "authors": ["MrMr"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.mrmr.animmod.AnimModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,14 @@
+MOVEMENT ANIMATIONS (Fabric 1.21.1)
+
+FORMA FACIL (sin instalar nada): compilar con GitHub gratis
+  1. Crea cuenta en github.com y pulsa "New repository" (publico o privado).
+  2. En el repositorio nuevo: "uploading an existing file" y arrastra TODO el contenido
+     de esta carpeta (incluida la carpeta oculta .github y la carpeta src).
+  3. Pestana "Actions" -> "Compilar mod" -> "Run workflow".
+  4. Cuando salga el check verde (2-5 min), entra en esa ejecucion y baja
+     "movement-animations-jar" desde Artifacts. Descomprime: dentro esta el .jar.
+  5. Pon el .jar en .minecraft/mods con Fabric Loader y Fabric API 1.21.1.
+
+ANIMACIONES: src/main/resources/assets/animmod/player_animation/
+  idle walk run sneak climb swim fall jump glide (.json)
+  Son poses basicas sin probar; se pueden retocar con Emotecraft.

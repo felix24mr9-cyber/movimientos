@@ -1,0 +1,71 @@
+{
+ "name": "swim",
+ "author": "MrMr",
+ "emote": {
+  "isLoop": true,
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 24,
+  "stopTick": 24,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 0,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -2.8
+    },
+    "leftArm": {
+     "pitch": -0.4
+    },
+    "rightLeg": {
+     "pitch": 0.3
+    },
+    "leftLeg": {
+     "pitch": -0.3
+    },
+    "torso": {
+     "pitch": 1.2
+    }
+   },
+   {
+    "tick": 12,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -0.4
+    },
+    "leftArm": {
+     "pitch": -2.8
+    },
+    "rightLeg": {
+     "pitch": -0.3
+    },
+    "leftLeg": {
+     "pitch": 0.3
+    },
+    "torso": {
+     "pitch": 1.2
+    }
+   },
+   {
+    "tick": 24,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -2.8
+    },
+    "leftArm": {
+     "pitch": -0.4
+    },
+    "rightLeg": {
+     "pitch": 0.3
+    },
+    "leftLeg": {
+     "pitch": -0.3
+    },
+    "torso": {
+     "pitch": 1.2
+    }
+   }
+  ]
+ }
+}

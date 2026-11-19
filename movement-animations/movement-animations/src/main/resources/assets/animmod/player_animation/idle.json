@@ -1,0 +1,62 @@
+{
+ "name": "idle",
+ "author": "MrMr",
+ "emote": {
+  "isLoop": true,
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 80,
+  "stopTick": 80,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 0,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": 0.03
+    },
+    "leftArm": {
+     "pitch": -0.03
+    },
+    "rightLeg": {
+     "pitch": 0
+    },
+    "leftLeg": {
+     "pitch": 0
+    }
+   },
+   {
+    "tick": 40,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -0.03
+    },
+    "leftArm": {
+     "pitch": 0.03
+    },
+    "rightLeg": {
+     "pitch": 0
+    },
+    "leftLeg": {
+     "pitch": 0
+    }
+   },
+   {
+    "tick": 80,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": 0.03
+    },
+    "leftArm": {
+     "pitch": -0.03
+    },
+    "rightLeg": {
+     "pitch": 0
+    },
+    "leftLeg": {
+     "pitch": 0
+    }
+   }
+  ]
+ }
+}

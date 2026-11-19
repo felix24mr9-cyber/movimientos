@@ -1,0 +1,17 @@
+{
+  "name": "run",
+  "author": "MrMr",
+  "emote": {
+    "isLoop": true,
+    "returnTick": 0,
+    "beginTick": 0,
+    "endTick": 16,
+    "stopTick": 16,
+    "degrees": false,
+    "moves": [
+      { "tick": 0,  "easing": "INOUTSINE", "rightArm": {"pitch": -1.0}, "leftArm": {"pitch": 1.0},  "rightLeg": {"pitch": 1.0},  "leftLeg": {"pitch": -1.0}, "torso": {"pitch": 0.25} },
+      { "tick": 8,  "easing": "INOUTSINE", "rightArm": {"pitch": 1.0},  "leftArm": {"pitch": -1.0}, "rightLeg": {"pitch": -1.0}, "leftLeg": {"pitch": 1.0},  "torso": {"pitch": 0.25} },
+      { "tick": 16, "easing": "INOUTSINE", "rightArm": {"pitch": -1.0}, "leftArm": {"pitch": 1.0},  "rightLeg": {"pitch": 1.0},  "leftLeg": {"pitch": -1.0}, "torso": {"pitch": 0.25} }
+    ]
+  }
+}

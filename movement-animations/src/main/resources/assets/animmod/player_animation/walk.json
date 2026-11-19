@@ -1,0 +1,62 @@
+{
+ "name": "walk",
+ "author": "MrMr",
+ "emote": {
+  "isLoop": true,
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 20,
+  "stopTick": 20,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 0,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -0.5
+    },
+    "leftArm": {
+     "pitch": 0.5
+    },
+    "rightLeg": {
+     "pitch": 0.5
+    },
+    "leftLeg": {
+     "pitch": -0.5
+    }
+   },
+   {
+    "tick": 10,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": 0.5
+    },
+    "leftArm": {
+     "pitch": -0.5
+    },
+    "rightLeg": {
+     "pitch": -0.5
+    },
+    "leftLeg": {
+     "pitch": 0.5
+    }
+   },
+   {
+    "tick": 20,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -0.5
+    },
+    "leftArm": {
+     "pitch": 0.5
+    },
+    "rightLeg": {
+     "pitch": 0.5
+    },
+    "leftLeg": {
+     "pitch": -0.5
+    }
+   }
+  ]
+ }
+}

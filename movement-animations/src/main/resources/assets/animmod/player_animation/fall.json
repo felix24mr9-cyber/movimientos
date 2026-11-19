@@ -1,0 +1,62 @@
+{
+ "name": "fall",
+ "author": "MrMr",
+ "emote": {
+  "isLoop": true,
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 20,
+  "stopTick": 20,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 0,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -2.9
+    },
+    "leftArm": {
+     "pitch": -2.9
+    },
+    "rightLeg": {
+     "pitch": 0.3
+    },
+    "leftLeg": {
+     "pitch": -0.3
+    }
+   },
+   {
+    "tick": 10,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -2.7
+    },
+    "leftArm": {
+     "pitch": -2.7
+    },
+    "rightLeg": {
+     "pitch": 0.4
+    },
+    "leftLeg": {
+     "pitch": -0.4
+    }
+   },
+   {
+    "tick": 20,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -2.9
+    },
+    "leftArm": {
+     "pitch": -2.9
+    },
+    "rightLeg": {
+     "pitch": 0.3
+    },
+    "leftLeg": {
+     "pitch": -0.3
+    }
+   }
+  ]
+ }
+}

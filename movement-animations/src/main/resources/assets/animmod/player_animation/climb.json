@@ -1,0 +1,62 @@
+{
+ "name": "climb",
+ "author": "MrMr",
+ "emote": {
+  "isLoop": true,
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 20,
+  "stopTick": 20,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 0,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -2.6
+    },
+    "leftArm": {
+     "pitch": -1.6
+    },
+    "rightLeg": {
+     "pitch": 0.9
+    },
+    "leftLeg": {
+     "pitch": -0.3
+    }
+   },
+   {
+    "tick": 10,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -1.6
+    },
+    "leftArm": {
+     "pitch": -2.6
+    },
+    "rightLeg": {
+     "pitch": -0.3
+    },
+    "leftLeg": {
+     "pitch": 0.9
+    }
+   },
+   {
+    "tick": 20,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -2.6
+    },
+    "leftArm": {
+     "pitch": -1.6
+    },
+    "rightLeg": {
+     "pitch": 0.9
+    },
+    "leftLeg": {
+     "pitch": -0.3
+    }
+   }
+  ]
+ }
+}

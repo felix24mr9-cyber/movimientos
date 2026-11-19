@@ -1,0 +1,71 @@
+{
+ "name": "sneak",
+ "author": "MrMr",
+ "emote": {
+  "isLoop": true,
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 24,
+  "stopTick": 24,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 0,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -0.3
+    },
+    "leftArm": {
+     "pitch": 0.3
+    },
+    "rightLeg": {
+     "pitch": 0.4
+    },
+    "leftLeg": {
+     "pitch": -0.4
+    },
+    "torso": {
+     "pitch": 0.5
+    }
+   },
+   {
+    "tick": 12,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": 0.3
+    },
+    "leftArm": {
+     "pitch": -0.3
+    },
+    "rightLeg": {
+     "pitch": -0.4
+    },
+    "leftLeg": {
+     "pitch": 0.4
+    },
+    "torso": {
+     "pitch": 0.5
+    }
+   },
+   {
+    "tick": 24,
+    "easing": "INOUTSINE",
+    "rightArm": {
+     "pitch": -0.3
+    },
+    "leftArm": {
+     "pitch": 0.3
+    },
+    "rightLeg": {
+     "pitch": 0.4
+    },
+    "leftLeg": {
+     "pitch": -0.4
+    },
+    "torso": {
+     "pitch": 0.5
+    }
+   }
+  ]
+ }
+}
